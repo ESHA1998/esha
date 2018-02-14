@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2018, 11:59:18 AM
+    Author     : dell
+*/
+html{
+     height: 100%;
+ }
+ body{
+     background: url("images/vacation-final.jpg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     text-align: center;
+ }
+
+ label{
+     display: block;
+     margin: 10px auto;
+ }
+
+ form label{
+     display: inline;
+ }
+ body h1{
+     color: red;
+ }
+
+ strong{
+     color: yellow;
+ }
+
+ section{
+     background-color: blue;
+     border: white 3px dotted;
+     width: 80%;
+     margin: 5px auto;
+     color: #f5f5f5;
+     clear: right;
+     overflow: auto;
+ }
+
+ section h2{
+     color: white;
+ }
+
+ .error{
+ color: red;
+ }
+
+ input{
+     text-align: center;
+ }
+
+ .next{
+     background-color: white;
+     color: green;
+     border: 3px dotted;
+     width: 10%;
+     float: right;
+     margin: 5px 10px;
+ }
